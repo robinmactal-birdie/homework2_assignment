@@ -1,0 +1,60 @@
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    border-bottom: 3px solid #000000;
+    padding-bottom: 6px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+    display: flex;
+    justify-content: left; 
+    gap: 5px; 
+}
+
+nav ul li {
+    border-right: 2px solid #000000;
+    padding-right: 5px;
+}
+
+nav ul li:last-child {
+    border-right: none;
+}
+
+h1.page-title {
+    margin-bottom: -10px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+ol {
+    margin-left: -25px;
+    margin-top: 5px;
+}
+
+h4 {
+    margin-bottom: 2px;
+}
+
+ol.what-i-like {
+    margin-top: 0px;
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+}
+
+footer p {
+margin: 1px 0;
+}
